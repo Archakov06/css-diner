@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>CSS Diner - Where we feast on CSS Selectors!</title>
     <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/levels.js" type="text/javascript" charset="utf-8"></script>
@@ -39,10 +40,10 @@
       <h2 class="order"></h2>
 
       <div class="note">
-        <h3>No worries, you've got this!</h3>
+        <h3>Не беспокойтесь, вы сделаете это!</h3>
         <p>
-          You're about to learn CSS Selectors!
-          Selectors are how you pick which element to apply styles to.
+          Вы собираетесь понять, что такое CSS селекторы!
+          Селекторы - это формальное описание элемента или группы элементов, к которым применяется указанное CSS правило.
         </p>
 
         <h4>Exhibit 1 - A CSS Rule</h4>
@@ -54,20 +55,23 @@ p {
 
         <p>
           Here, the "p" is the selector (selects all &lt;p&gt; elements) and applies the margin-bottom style.
+          Здесь «p» является селектором (то есть, идёт выборка всех элементов &lt;p&gt;) и применяется стиль margin-bottom.
         </p>
         <p>
           To play, type in a CSS selector in the editor below to select the correct items on the table.If you get it right, you'll advance to the next level.
+          Чтобы начать играть, вводите в CSS редактор ниже название селектора. Если вы все сделаете правильно, вы перейдете на следующий уровень.
         </p>
         <p>
           Hover over the items on the table to see their HTML markup.
+          Наведите указатель на элементы по центру, чтобы увидеть их разметку HTML.
         </p>
         <p>
           Get help with selectors on the right! &rarr;
         </p>
-        <a class="note-toggle" href="#">Ok, got it!</a>
+        <a class="note-toggle" href="#">Хорошо, я понял!</a>
       </div>
 
-      <a class="note-toggle" href="#">Help, I'm stuck!</a>
+      <a class="note-toggle" href="#">Помогите, я застрял!</a>
 
       <div class="game-wrapper">
         <div class="table-wrapper">
@@ -85,23 +89,23 @@ p {
 
         <div class="editor-pane">
           <div class="input-header">
-            <div class="file-name">style.css</div> CSS Editor
+            <div class="file-name">style.css</div> CSS редактор
           </div>
           <div class="file-window css-view">
             <div class="line-numbers">
               1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11<br/>12<br/>13<br/>14<br/>15<br/>16<br/>17<br/>18<br/>19<br/>20
             </div>
-              <input class="input-strobe" type="text" placeholder="Type in a CSS selector"/><span class="plus">+</span><div class="enter-button">enter</div>
+              <input class="input-strobe" type="text" placeholder="Введите CSS селектор"/><span class="plus">+</span><div class="enter-button">enter</div>
             <div>
             {<br/>
-            /* Styles would go here. */<br/>
+            /* Стили будут здесь. */<br/>
             }
             </div>
             <div class="help">
               <br/>
               /* <br/>
-              Type a number to skip to a level.<br/>
-              Ex &rarr; "5" for level 5 <br/>*/
+              Введите в этом же поле число, чтобы перейти на нужный уровень.<br/>
+              Пример &rarr; "5" для перехода на пятый уровень<br/>*/
             </div>
           </div>
         </div>
@@ -109,7 +113,7 @@ p {
         <div class="editor-pane html-view">
           <div class="input-header">
             <div class="file-name">table.html</div>
-            HTML Viewer
+            HTML код
           </div>
           <div class="file-window">
             <div class="line-numbers">1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11<br/>12<br/>13<br/>14<br/>15<br/>16<br/>17<br/>18<br/>19<br/>20</div>
@@ -123,7 +127,7 @@ p {
           Made by <a href="http://www.twitter.com/flukeout">@flukeout</a> &mdash; come say hi!
         </p>
         <p>
-          Have feedback or questions? Please file an isssue on <a href="https://github.com/flukeout/css-diner/issues">the Github repo</a>.
+          Есть отзывы или вопросы? Отпишитесь в <a href="https://github.com/flukeout/css-diner/issues">Github репозитории</a>.
         </p>
       </div>
 
@@ -152,15 +156,15 @@ p {
           <h2 class="title"></h2>
           <h3 class="syntax"></h3>
           <div class="hint"></div>
-          <h4 class="examples-title">Examples</h4>
+          <h4 class="examples-title">Примеры</h4>
           <div class="examples"></div>
         </div>
       </div>
 
       <div class="level-menu">
-        <h2>Choose a level</h2>
+        <h2>Выберите уровень</h2>
         <div class="levels"><!-- level links are inserted here--></div>
-        <a class="reset-progress" href="#">Reset Progress</a>
+        <a class="reset-progress" href="#">Сбросить прогресс</a>
       </div>
 
       <div class="level-menu-toggle-wrapper">
