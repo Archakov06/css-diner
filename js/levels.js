@@ -154,15 +154,15 @@ var levels = [
     `
   },
   {
-    doThis : "Select all the plates and bentos",
+    doThis : "Выберите все тарелки и упаковки",
     selector : "plate,bento",
-    selectorName : "Comma Combinator",
-    helpTitle: "Combine, selectors, with... commas!",
+    selectorName : "Комбинация через запятые",
+    helpTitle: "Комбинируйте выборкой элементов через запятые",
     syntax : "A, B",
-    help : 'Thanks to Shatner technology, this выбирает все <strong>A</strong> and <strong>B</strong> elements. You can combine any selectors this way, and you can specify more than two.',
+    help : 'С помощью запятой, Вы можете делать выборку <strong>A</strong> и <strong>B</strong> элеметов. С помощью такой комбинации, можно делать выборку скольких угодно элементов и селекторов.',
     examples: [
-    '<strong>p, .fun</strong> выбирает все <tag>p</tag> elements as well as all elements with <strong>class="fun"</strong>',
-    '<strong>a, p, div</strong> выбирает все <tag>a</tag>, <tag>p</tag> and <tag>div</tag> elements'
+    '<strong>p, .fun</strong> выбирает все <tag>p</tag> элементы, а так же все элементы с <strong>class="fun"</strong>',
+    '<strong>a, p, div</strong> выбирает все <tag>a</tag>, <tag>p</tag> и <tag>div</tag> элементы'
     ],
     boardMarkup : `
     <pickle class="small"/>
@@ -181,14 +181,14 @@ var levels = [
     `
   },
   {
-    doThis : "Select all the things!",
+    doThis : "Выбирайте все!",
     selector : "*",
-    selectorName:  "The Universal Selector",
-    helpTitle: "You can select everything!",
+    selectorName:  "Универсальный селектор",
+    helpTitle: "Вы можете выбрать все!",
     syntax : "*",
-    help : 'You can select all elements with the universal selector! ',
+    help : 'С помощью этого селектора, вы можете выбрать все элементы в Вашем документе.',
     examples : [
-      '<strong>p *</strong> selects any element inside all <tag>p</tag> elements.',
+      '<strong>p *</strong> выбирает все элементы внутри элемента <tag>p</tag>.',
     ],
     boardMarkup : `
     <apple/>
@@ -203,14 +203,14 @@ var levels = [
     `
   },
   {
-    doThis : "Select everything on a plate",
+    doThis : "Выбрать все из тарелки",
     selector : "plate *",
     syntax : "A&nbsp;&nbsp;*",
-    helpTitle: "Combine the Universal Selector",
-    help : 'This выбирает все elements inside of <strong>A</strong>.',
+    helpTitle: "Комбинация с универсальным селектором",
+    help : 'Выбрать все элементы внутри элемента <strong>A</strong>.',
     examples : [
-      '<strong>p *</strong> selects every element inside all <tag>p</tag> elements.',
-      '<strong>ul.fancy *</strong> selects every element inside all <tag>ul class="fancy"</tag> elements.'
+      '<strong>p *</strong> выбирает все элементы из <tag>p</tag>.',
+      '<strong>ul.fancy *</strong> выбирает все элементы из <tag>ul class="fancy"</tag>.'
     ],
     boardMarkup: `
     <plate id="fancy">
